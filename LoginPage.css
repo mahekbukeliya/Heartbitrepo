@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('./darkred2.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFCCC3;
+    /* Match with your theme */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.background-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.large-rectangle {
+    background: url('newrectbg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    height: 80%;
+    position: relative;
+}
+
+.login-container1 {
+    background: rgba(255, 255, 255, 0.65);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.login-container1 h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #8B0000;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.submit-button1 {
+    background-color: #8B0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button1:hover {
+    background-color: #B22222;
+}
+
+.forgot-password {
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    color: #8B0000;
+    text-decoration: none;
+}
+
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #8B0000;
+    text-decoration: none;
+}

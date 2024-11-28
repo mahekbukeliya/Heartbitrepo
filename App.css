@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+:root {
+    --PrimaryColor: #fff;
+    --hovercolor: #ffaaaa;
+    --lightpink: #fce7e7;
+    --whitecolor: #ffffff;
+    --blackcolor: #000000;
+    --textcolor: #560e0e;
+    --bgcolor: #fff0f0;
+    --inputcolor: #080808;
+    --biggestfont: 2.5rem;
+    --h2fontsize: 1.5rem;
+    --h2fontsize: 1.25rem;
+    --h3fontsize: 1rem;
+    --normalFontSize: .938rem;
+    --smallfontsize: 813rem;
+    --smallestfontsize: .75rem;
+}
+
+html {
+    font-size: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.icon {
+    font-size: var(--h2fontsize);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+.button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--inputcolor);
+    padding: .8rem 1rem;
+    color: var(--textcolor);
+}
+
+.btn .icon {
+    margin-left: .5rem;
+}
+
+.btn:hover {
+    background: var(--PrimaryColor);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.container {
+    position: relative;
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--bgcolor);
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px grey;
+}

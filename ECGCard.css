@@ -1,0 +1,48 @@
+.ecg-card {
+    background-color: #ffffff;
+    /* Light background for a clean look */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    /* Same width as Heart Overview */
+    margin: 20px auto;
+    /* Center align the component */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ecg-image {
+    width: 100%;
+    /* Full width for the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+.ecg-summary {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ecg-summary h4 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #390606;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ecg-summary li {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 18px;
+    text-align: left;
+}
+
+.ecg-card-container {
+    margin-top: -1%;
+    /* Space between Heart Overview and ECG Card */
+}

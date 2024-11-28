@@ -1,0 +1,147 @@
+/* Main Page Container */
+.manage-page {
+  padding: 20px;
+}
+
+/* Page Title */
+.page-title {
+  color: #e74c3c; /* Dark red shade */
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+/* Profile and Member Container */
+.profile-container, .member-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap; /* Default to no wrapping */
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Profile and Member Image */
+.profile-pic img, .member-pic img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+/* Editable Profile Picture */
+.upload-input {
+  margin-top: 10px;
+}
+
+/* Profile and Member Details Section */
+.profile-details, .member-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.detail span {
+  font-weight: bold;
+  color: #800000;
+  margin-right: 10px;
+}
+
+.profile-details input, .profile-details select,
+.member-details input, .member-details select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Action Buttons */
+.profile-actions, .member-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.profile-actions button, .member-actions button {
+  padding: 10px 15px;
+  background-color: #800000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-actions .delete-btn, .member-actions .delete-btn {
+  background-color: #b30000;
+}
+
+.profile-actions .delete-btn:hover, .member-actions .delete-btn:hover,
+.profile-actions button:hover, .member-actions button:hover {
+  background-color: #a60000;
+}
+
+/* Member Management Container */
+.member-management-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(24, 22, 22, 0.11);
+}
+
+.section-title {
+  font-size: 20px;
+  color: #800000;
+  margin-bottom: 20px;
+}
+
+/* Add Member Button */
+.add-member-btn {
+  padding: 10px 15px;
+  background-color: #800000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .profile-container, .member-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-pic img, .member-pic img {
+    margin-bottom: 15px;
+  }
+
+  .profile-details, .member-details {
+    margin-left: 0;
+  }
+
+  .profile-actions, .member-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-actions button, .member-actions button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

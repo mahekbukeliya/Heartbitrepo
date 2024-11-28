@@ -1,0 +1,29 @@
+/* LatestPredictions.css */
+
+.latest-predictions {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: 80px auto;
+    margin-top: 20px;
+}
+
+.latest-predictions h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #390606;
+}
+
+.graph-container {
+    display: flex;
+    justify-content: center;
+}
+
+.graph-container .recharts-wrapper {
+    width: 100%;
+    max-width: 500px;
+}

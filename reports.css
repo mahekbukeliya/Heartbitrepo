@@ -1,0 +1,45 @@
+/* report.css */
+.report-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #e74c3c;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.report-content {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.report-details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+}
+
+.download-pdf-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.download-pdf-btn:hover {
+    background-color: #c0392b;
+}

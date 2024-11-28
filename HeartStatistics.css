@@ -1,0 +1,57 @@
+.heart-statistics {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.heart-statistics h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #390606;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.stat-box {
+    background: rgb(255, 209, 209);
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.stat-box i {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    background: darkred;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.stat-box h3 {
+    font-size: 20px;
+    color: #390606;
+    margin-bottom: 10px;
+}
+
+.stat-box .CircularProgressbar {
+    width: 120px;
+    height: 120px;
+}
